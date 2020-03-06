@@ -21,7 +21,7 @@ bool fsmBoosterpackButtonS1(unsigned char buttonhistory);
 
 
 // TODO: Define any constants that are local to homework.c using #define
-#define UNPRESSED 11111111
-#define PRESSED 00000000
+#define UNPRESSED 255
+#define PRESSED 0
 
 #endif /* HOMEWORK3_H_ */
